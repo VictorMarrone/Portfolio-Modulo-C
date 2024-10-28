@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #d1e7f0, #a4d8e1);
+    height: 100%;
+}
+
+section {
+    border-bottom: 1px solid #ccc; /* Linha separadora */
+    padding-bottom: 20px; /* Espaço abaixo da seção */
+    margin-bottom: 20px; /* Espaço entre as seções */
+}
+
+.header-section {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-section {
+    background-color: #333; 
+    padding: 10px 0;
+}
+
+.nav-list {
+    list-style: none; 
+    display: flex;
+    justify-content: center; 
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    margin: 0 15px; 
+}
+
+.nav-list a {
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+.nav-list a:hover {
+    text-decoration: underline; 
+}
+
+.portfolio-section a:hover {
+    text-decoration: underline;
+
+}
+
+.ul-portfolio {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão */
+}
+
+.portfolio-item {
+    display: flex; /* flexbox para alinhar os itens */
+    align-items: center; /* Alinha os itens ao centro */
+    margin-bottom: 15px; /* Espaço entre os itens da lista */
+}
+
+.portfolio-item a {
+    margin-right: 10px; /* Espaço entre o link e a imagem */
+    text-decoration: none; /* Remove o underline do link */
+    color: #333; /* Troca da cor do texto do link */
+}
+
+.portfolio-item img {
+    max-width: 200px; /* Limita a largura máxima */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10%; /* Cantos arredondados */
+    margin-left: auto; /* Adiciona margem à esquerda da imagem */
+}
+
+
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    padding: 20px;
+    max-width: 400px; /* Largura máxima do formulário */
+    margin: 40px auto; /* Centraliza verticalmente e horizontalmente */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Borda com transparência */
+    border-radius: 10px; /* Cantos arredondados */
+    background: rgba(255, 255, 255, 0.8); /* Fundo branco com transparência */
+    backdrop-filter: blur(10px); /* Efeito de desfoque */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* O formulário ocupa toda a largura da seção */
+    margin-right: 20px;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; /* Para que o input  ocupe toda a largura do formulário */
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+.contact-form button:hover {
+    background-color: #555; /* Cor do botão ao passar o mouse */
+}
+
+.footer {
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Espaçamento interno */
+    border-top: 1px solid #ccc; /* Linha superior */
+    position: relative; /* Para garantir que fique no lugar correto */
+    bottom: 0; /* Alinha ao fundo da página */
+    width: 100%; /* Largura total */
+}
