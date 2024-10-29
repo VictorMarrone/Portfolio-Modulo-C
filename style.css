@@ -1,4 +1,4 @@
-body {
+body { /* definições gerais da página, escolhendo a fonte assim como adicionando um background com gradiend de cores leves */
     font-family: Arial, sans-serif;
     background: linear-gradient(to bottom right, #d1e7f0, #a4d8e1);
     height: 100%;
@@ -10,19 +10,19 @@ section {
     margin-bottom: 20px; /* Espaço entre as seções */
 }
 
-.header-section {
+.header-section { /* ajustes do header, alinhando ao centro e definindo margem */
     display: flex;
     margin: 20px;
     align-items: center;
     justify-content: center;
 }
 
-.nav-section {
+.nav-section { /* definindo cor de fundo e padding da barra de navegação */
     background-color: #333; 
     padding: 10px 0;
 }
 
-.nav-list {
+.nav-list { /* ajustando para flex, ajustando margin e padding e alinhando ao centro */
     list-style: none; 
     display: flex;
     justify-content: center; 
@@ -34,17 +34,17 @@ section {
     margin: 0 15px; 
 }
 
-.nav-list a {
+.nav-list a { /* definindo a cor de texto na lista da barra de navegação assim como passando para negrito */
     color: white; 
     text-decoration: none; 
     font-weight: bold; 
 }
 
-.nav-list a:hover {
+.nav-list a:hover { /* retirado o underline dos links da tag a acima e agora colocando através de hover */
     text-decoration: underline; 
 }
 
-.portfolio-section a:hover {
+.portfolio-section a:hover { /* nos projetos do portfólio adicionado underline quando passado o mouse  */
     text-decoration: underline;
 
 }
